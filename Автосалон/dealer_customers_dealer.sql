@@ -39,7 +39,8 @@ CREATE TABLE `customers_dealer` (
 
 LOCK TABLES `customers_dealer` WRITE;
 /*!40000 ALTER TABLE `customers_dealer` DISABLE KEYS */;
-INSERT INTO `customers_dealer` VALUES 
+INSERT INTO `customers_dealer` 
+VALUES 
 (1,'Владимир','Николаев','vladimirnik@example.com','+79978030459','Почта'),
 (2,'Давид','Григорян','dgrigorian@example.net',NULL,'Почта'),
 (3,'Ричард','Мельчаков','richard0123@example.com','+79844870771','Телефон');
