@@ -38,7 +38,12 @@ CREATE TABLE `courier_info` (
 
 LOCK TABLES `courier_info` WRITE;
 /*!40000 ALTER TABLE `courier_info` DISABLE KEYS */;
-INSERT INTO `courier_info` VALUES (1,'Андрей','Димитров','+79997770022','пеший'),(2,'Сергей','Алёшин','+79920386194','авто'),(3,'Олег','Щукин','+79524833191','авто'),(4,'Степан','Мячиков','79031238302','авто');
+INSERT INTO `courier_info` 
+VALUES 
+(1,'Андрей','Димитров','+79997770022','пеший'),
+(2,'Сергей','Алёшин','+79920386194','авто'),
+(3,'Олег','Щукин','+79524833191','авто'),
+(4,'Степан','Мячиков','79031238302','авто');
 /*!40000 ALTER TABLE `courier_info` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
