@@ -35,7 +35,11 @@ CREATE TABLE `departments` (
 
 LOCK TABLES `departments` WRITE;
 /*!40000 ALTER TABLE `departments` DISABLE KEYS */;
-INSERT INTO `departments` VALUES (1,'HR'),(2,'Продажи'),(3,'Технология');
+INSERT INTO `departments` 
+VALUES 
+(1,'HR'),
+(2,'Продажи'),
+(3,'Технология');
 /*!40000 ALTER TABLE `departments` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
