@@ -43,7 +43,11 @@ CREATE TABLE `cars` (
 
 LOCK TABLES `cars` WRITE;
 /*!40000 ALTER TABLE `cars` DISABLE KEYS */;
-INSERT INTO `cars` VALUES (1,1,2,'Ford F-150','ГОТОВО',300000),(2,1,2,'BMW M5','ГОТОВО',2000000),(3,2,1,'Ford Mustang','ОЖИДАЕТСЯ',1500000),(4,3,3,'Mercedes CLS','ОЖИДАЕТСЯ',3120000);
+INSERT INTO `cars` VALUES 
+(1,1,2,'Ford F-150','ГОТОВО',300000),
+(2,1,2,'BMW M5','ГОТОВО',2000000),
+(3,2,1,'Ford Mustang','ОЖИДАЕТСЯ',1500000),
+(4,3,3,'Mercedes CLS','ОЖИДАЕТСЯ',3120000);
 /*!40000 ALTER TABLE `cars` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
