@@ -39,7 +39,31 @@ CREATE TABLE `orders_products` (
 
 LOCK TABLES `orders_products` WRITE;
 /*!40000 ALTER TABLE `orders_products` DISABLE KEYS */;
-INSERT INTO `orders_products` VALUES (1,1,2),(1,4,1),(1,10,1),(2,4,1),(2,5,1),(3,3,1),(4,7,2),(5,2,1),(5,3,1),(6,8,3),(7,1,1),(7,6,4),(8,1,2),(9,2,1),(9,3,1),(10,1,2),(10,2,1),(12,5,2),(12,10,1),(13,4,2),(14,5,1),(15,7,2),(15,8,1);
+INSERT INTO `orders_products` 
+VALUES 
+(1,1,2),
+(1,4,1),
+(1,10,1),
+(2,4,1),
+(2,5,1),
+(3,3,1),
+(4,7,2),
+(5,2,1),
+(5,3,1),
+(6,8,3),
+(7,1,1),
+(7,6,4),
+(8,1,2),
+(9,2,1),
+(9,3,1),
+(10,1,2),
+(10,2,1),
+(12,5,2),
+(12,10,1),
+(13,4,2),
+(14,5,1),
+(15,7,2),
+(15,8,1);
 /*!40000 ALTER TABLE `orders_products` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
